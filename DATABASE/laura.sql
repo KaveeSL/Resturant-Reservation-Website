@@ -105,37 +105,12 @@ CREATE TABLE IF NOT EXISTS `table` (
 --
 
 INSERT INTO `table` (`name`, `email`, `date`, `time`, `guests`, `number`) VALUES
-('Kaveesha Kasmira', 'kasmirakaveesha@gmail.com', '2023-07-05', '13:14:00', 3, ''),
-('Inoka Amarasinghe', 'kasmirakaveesha@gmail.cok', '2023-06-29', '13:13:00', 8, ''),
-('Inoka Amarasinghe', 'kasmirakaveesha@gmail.cok', '2023-06-29', '13:13:00', 8, ''),
-('Inoka Amarasinghe', 'kasmirakaveesha@gmail.cok', '2023-06-29', '13:13:00', 8, ''),
-('Inoka Amarasinghe', '11@gmail.com', '2023-07-06', '13:17:00', 4, ''),
 ('Inoka Amarasinghe', '11@gmail.com', '2023-07-06', '13:17:00', 4, '0'),
 ('Inoka Amarasinghe', '11@gmail.com', '2023-07-06', '13:17:00', 4, '0'),
-('Inoka Amarasinghe', 'kasmirakaveesha@gmail.cok', '2023-07-01', '16:27:00', 4, '2147483647'),
-('Inoka Amarasinghe', 'kasmirakaveesha@gmail.cok', '2023-07-01', '16:27:00', 4, '01434353456'),
-('Inoka Amarasinghe', 'kasmirakaveesha@gmail.cok', '2023-07-01', '16:27:00', 4, '01434353456'),
-('Inoka Amarasinghe', 'kasmirakaveesha@gmail.cok', '2023-07-01', '16:27:00', 4, '01434353456'),
-('Inoka Amarasinghe', 'kasmirakaveesha@gmail.cok', '2023-07-01', '16:27:00', 4, '01434353456'),
-('Inoka Amarasinghe', 'kasmirakaveesha@gmail.cok', '2023-07-01', '16:27:00', 4, '01434353456'),
-('Kaveesha Kasmira', 'kasmirakaveesha@gmail.com', '2023-06-30', '13:43:00', 3, '0718064365'),
-('Kaveesha Kasmira', 'kasmirakaveesha@gmail.com', '2023-06-30', '13:43:00', 3, '0718064365'),
-('Kaveesha Kasmira', 'kasmirakaveesha@gmail.com', '2023-06-30', '13:43:00', 3, '0718064365'),
-('Kaveesha Kasmira', 'kasmirakaveesha@gmail.com', '2023-06-30', '13:43:00', 3, '0718064365'),
-('Inoka Amarasinghe', 'kasmirakaveesha@gmail.cok', '2023-07-06', '13:47:00', 3, '0718064365'),
-('Inoka Amarasinghe', 'kasmirakaveesha@gmail.cok', '2023-07-06', '13:47:00', 3, '0718064365'),
-('Inoka Amarasinghe', 'kasmirakaveesha@gmail.cok', '2023-07-06', '13:47:00', 3, '0718064365'),
-('Inoka Amarasinghe', 'kasmirakaveesha@gmail.cok', '2023-07-06', '13:47:00', 3, '0718064365'),
 ('nanayakkara', 'nana@gmail.com', '2023-07-04', '18:01:00', 2, '0772456787'),
 ('nanayakkara', 'nana@gmail.com', '2023-07-04', '18:01:00', 2, '0772456787'),
 ('manu', '11222@gmail.com', '2023-06-30', '01:17:00', 2, '0772456787'),
-('pamidu', 'pami@gmail.com', '2023-07-04', '16:12:00', 2, '080735721'),
-('Kaveesha', 'kasmirakaveesha@gmail.cok', '2023-07-07', '18:14:00', 1, '474687'),
-('lllllllllllll', 'kasmirakaveesha@gmail.cok', '2023-07-05', '18:16:00', 4, '78764865'),
-('hhhhhhhhhh', 'kasmirakaveesha@gmail.cok', '2023-07-12', '18:16:00', 2, '5555555555'),
-('okkkkkkkkk', 'kasmirakaveesha@gmail.cok', '2023-07-17', '18:20:00', 7, '888888888'),
-('Kaveesha', 'kasmirakaveesha@gmail.cok', '2023-06-29', '18:25:00', 3, '77777'),
-('Kaveesha', 'kasmirakaveesha@gmail.cok', '2023-06-29', '18:25:00', 3, '77777');
+('pamidu', 'pami@gmail.com', '2023-07-04', '16:12:00', 2, '080735721');
 
 -- --------------------------------------------------------
 
@@ -169,10 +144,8 @@ INSERT INTO `users` (`user_id`, `username`, `password`, `full_name`, `email`, `a
 (23, 'Savith', '9101', 'Olitha', 'Savith@gmail.com', NULL, NULL, NULL, 'user', '2023-06-11 03:42:14'),
 (25, 'Danisha', '1111', 'vishvani', 'rodrigo@gmail.com', NULL, NULL, NULL, 'user', '2023-06-11 03:44:48'),
 (26, 'pulni', '2222', 'wijebandara', 'percy@gmail.com', NULL, NULL, NULL, 'user', '2023-06-11 03:45:18'),
-(30, 'k', '00000', 'Kaveesha Kasmira', 'kasmirakaveesha@gmail.com', NULL, NULL, NULL, 'user', '2023-07-03 20:03:07'),
 (31, 'ino', '111', 'Inoka Amarasinghe', '11@gmail.com', NULL, NULL, NULL, 'user', '2023-07-08 20:43:02'),
 (32, 'Kaveesha_Nanayakkara', '123', 'Kaveesha Nanayakkara', 'k@gmail.com', NULL, NULL, NULL, 'user', '2023-07-09 17:07:45'),
-(33, 'admin@gmail.com', '11', 'Inoka Amarasinghe', 'kasmirakaveesha@gmail.cok', NULL, NULL, NULL, 'user', '2023-07-18 23:20:05'),
 (34, 'kk', '123', 'kk', 'kk@gmail.com', 'kk', 'll', '78787899', 'admin', '0000-00-00 00:00:00');
 COMMIT;
 
